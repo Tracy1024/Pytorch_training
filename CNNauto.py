@@ -59,6 +59,7 @@ loss_func = nn.MSELoss()
 for epoch in range(EPOCH):
     for step, (x, b_label) in enumerate(train_loader):
 
+        print(x.size())
         f1, f2, r2, r1 = autoen(x)
 
         print(f1.size(), f2.size(), r2.size(), r1.size())
