@@ -2,9 +2,6 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-<<<<<<< HEAD
     <mapping directory="$PROJECT_DIR$/pyro" vcs="Git" />
-=======
->>>>>>> 838eeb3ff574e46bb5be2b3a46a3ccec9ea23dd7
   </component>
 </project>
