@@ -32,7 +32,7 @@ for i in range(num_f1, num_f2):
 #    structure += (f2, )
 print(structure)
 
-model = BayesianNetwork.from_structure(X, structure, algorithm='exact')
+model = BayesianNetwork.from_structure(X, structure)
 model.plot()
 plt.show()
 p = model.probability(X)
